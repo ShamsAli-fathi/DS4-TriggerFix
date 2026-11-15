@@ -11,7 +11,7 @@ With maximum 102: **0 → 0**, **51 → 128**, **102 → 255**. Applies to both 
 and `scePadReadState`. Each enabled scaler changes only its own analog trigger byte by default. The supplied
 configuration disables the helper's optional deadzone and remapping features.
 
-**Compiled and host-tested; not tested on PS4 hardware.** Games that bypass
+**Compiled, host-tested, and tested on PS4 hardware in some games.** Games that bypass
 these hooks may be unaffected. No controller firmware or calibration is changed.
 
 ## Install

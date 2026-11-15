@@ -1,6 +1,6 @@
 # Install L2/R2 scaling for one PS4 game
 
-This is a custom build. Actual PS4/controller testing is still required.
+This custom build has been tested on PS4 hardware in some games.
 
 1. Close the target game. Back up `/data/GoldHEN/plugins/gamepad_helper.prx`,
    `/data/GoldHEN/plugins.ini`, and `/data/GoldHEN/gamepad.ini` if present.

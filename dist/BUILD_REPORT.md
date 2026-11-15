@@ -1,7 +1,7 @@
 # Build report — GamePad Helper 1.01
 
 Independent L2 and R2 analog scaling, compiled with real PS4 tools on 2026-11-15
-under Ubuntu WSL. PS4 hardware/runtime behavior remains unverified.
+under Ubuntu WSL. The maintainer has also confirmed PS4 hardware testing in some games.
 
 ## Artifact
 
@@ -51,7 +51,8 @@ linking and PRX packaging all ran successfully. Unrelated source was preserved.
 
 ## Limits
 
-No actual PS4 loading, controller input or game compatibility test was performed.
+PS4 hardware testing has been performed in some games; compatibility with all games
+has not been established.
 Games using other input paths may bypass these hooks. Restart the game to reload
 settings. The inherited INI parser uses `atoi`; use plain decimal integers.
 Out-of-range maxima (1–255) and thresholds (0–255) retain prior settings.
