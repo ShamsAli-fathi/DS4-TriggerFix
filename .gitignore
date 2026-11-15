@@ -1,0 +1,16 @@
+# Local dependencies and generated files
+/bin/
+/deps/
+**/build/
+/common/git_ver.h
+*.o
+*.a
+*.so
+*.elf
+*.oelf
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+# dist/ contains the verified release and is intentionally tracked.

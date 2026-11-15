@@ -1,0 +1,27 @@
+; Independent L2/R2 scaling. Replace CUSA12345 with your actual game Title ID.
+[default]
+enableL2Scaling=0
+L2InputMax=255
+L2DigitalThreshold=0
+enableR2Scaling=0
+R2InputMax=102
+R2DigitalThreshold=0
+
+[CUSA12345]
+; Keep sticks, mappings, touchpad and vibration unchanged.
+enableDeadZone=0
+enableCustomButton=0
+enableCustomTouchPad=0
+VirationIntensity=strong
+
+; Your L2 already reaches 255: leave its scaling disabled.
+; To compensate a damaged L2, enable it and enter its measured maximum (1-255).
+enableL2Scaling=0
+L2InputMax=255
+L2DigitalThreshold=0
+
+; Your R2 reaches 102: scale it to 255.
+enableR2Scaling=1
+R2InputMax=102
+; Zero preserves the existing digital button bit for each trigger.
+R2DigitalThreshold=0
